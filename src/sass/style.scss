@@ -1,0 +1,30 @@
+@import 'libs/bootstrap-reboot.min.scss';
+
+
+@import 'base/variables';
+@import 'base/mixins';
+@import 'base/animations';
+@import 'base/buttons';
+@import 'base/titles';
+
+
+.container {
+    display: block;
+    margin: 0 auto;
+    max-width: 1240px;
+    padding: 0 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+ol, ul {
+    margin: 0;
+    padding: 0;
+}
+
+@import 'blocks/header';
+
+
+@import 'base/media';
